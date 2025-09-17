@@ -27,8 +27,8 @@
   cursor: pointer;
 }
 
-/* ----------------1024px---------------- */
-@media (max-width: 1024px) {
+/* ----------------1200px---------------- */
+@media (max-width: 1200px) {
   .home-media-1 {
     height: 600px;
     width: auto !important;
@@ -43,7 +43,7 @@
     width: 90px;
   }
 
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     .home-media-2 {
       height: 600px;
       width: auto !important;
@@ -62,7 +62,7 @@
       vertical-align: middle !important;
     }
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     .home-media-3 {
       height: 600px;
       width: auto !important;
@@ -74,7 +74,7 @@
       overflow: hidden !important;
     }
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 1200px) {
     .home-media-4 {
       height: 600px;
       width: auto !important;
