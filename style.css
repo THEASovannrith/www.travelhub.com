@@ -26,6 +26,17 @@
 .pointer {
   cursor: pointer;
 }
+.v-100 {
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  width: auto !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
 
 /* ----------------1200px---------------- */
 @media (max-width: 1200px) {
