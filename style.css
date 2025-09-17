@@ -46,7 +46,7 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    margin-left: -250px !important;
+    margin-left: -900px !important;
     position: relative !important;
     overflow: hidden !important;
   }
@@ -61,7 +61,7 @@
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
-      margin-left: -150px !important;
+      margin-left: -650px !important;
       position: relative !important;
       overflow: hidden !important;
     }
@@ -80,7 +80,7 @@
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
-      margin-left: -180px !important;
+      margin-left: -750px !important;
       position: relative !important;
       overflow: hidden !important;
     }
@@ -92,7 +92,7 @@
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
-      margin-left: -310px !important;
+      margin-left: -1100px !important;
       position: relative !important;
       overflow: hidden !important;
     }
