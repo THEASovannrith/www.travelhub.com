@@ -41,7 +41,7 @@
 /* ----------------1200px---------------- */
 @media (max-width: 1200px) {
   .home-media-1 {
-    height: 600px;
+    height: 100vh;
     width: auto !important;
     display: flex !important;
     justify-content: center !important;
@@ -56,7 +56,7 @@
 
   @media (max-width: 1200px) {
     .home-media-2 {
-      height: 600px;
+      height: 100vh;
       width: auto !important;
       display: flex !important;
       justify-content: center !important;
@@ -75,7 +75,7 @@
   }
   @media (max-width: 1200px) {
     .home-media-3 {
-      height: 600px;
+      height: 100vh;
       width: auto !important;
       display: flex !important;
       justify-content: center !important;
@@ -87,7 +87,7 @@
   }
   @media (max-width: 1200px) {
     .home-media-4 {
-      height: 600px;
+      height: 100vh;
       width: auto !important;
       display: flex !important;
       justify-content: center !important;
@@ -100,12 +100,12 @@
   /* ----------------480px---------------- */
   @media (max-width: 480px) {
     .home-media-1-1 {
-      height: 600px;
+      height: 100vh;
       width: auto !important;
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
-      margin-left: -400px !important;
+      margin-left: -620px !important;
       position: relative !important;
       overflow: hidden !important;
     }
@@ -122,36 +122,36 @@
   }
   @media (max-width: 480px) {
     .home-media-2-2 {
-      height: 600px;
+      height: 100vh;
       width: auto !important;
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
-      margin-left: -280px !important;
+      margin-left: -450px !important;
       position: relative !important;
       overflow: hidden !important;
     }
   }
   @media (max-width: 480px) {
     .home-media-3-3 {
-      height: 600px;
+      height: 100vh;
       width: auto !important;
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
-      margin-left: -310px !important;
+      margin-left: -530px !important;
       position: relative !important;
       overflow: hidden !important;
     }
   }
   @media (max-width: 480px) {
     .home-media-4-4 {
-      height: 600px;
+      height: 100vh;
       width: auto !important;
       display: flex !important;
       justify-content: center !important;
       align-items: center !important;
-      margin-left: -460px !important;
+      margin-left: -730px !important;
       position: relative !important;
       overflow: hidden !important;
     }
