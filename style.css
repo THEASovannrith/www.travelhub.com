@@ -36,7 +36,7 @@ body {
 }
 
 /* ------------------------------ */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .home-img-1 {
     height: 60vh !important;
     width: auto;
@@ -61,3 +61,4 @@ body {
     margin-left: -300px !important;
   }
 }
+
