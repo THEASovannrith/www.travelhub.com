@@ -1,27 +1,9 @@
-/* Google Fonts */
-
-.suse-mono-uniquifier {
-  font-family: "SUSE Mono", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-}
-.great-vibes-regular {
-  font-family: "Great Vibes", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: "PalmDeChunky";
-  src: url(./Fonts/PalmDeChunkyPersonalUseOnly-Regular.ttf);
-}
-body {
-  font-family: "Roboto", sans-serif;
-  color: #333;
-}
-
 .travelhub {
   width: 90px;
+}
+.kampot-tov-view {
+  width: 150px;
+  height: auto;
 }
 .noto-sans-khmer {
   font-family: "Noto Sans Khmer", sans-serif;
@@ -30,13 +12,32 @@ body {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-
 .pointer {
   cursor: pointer;
 }
+.hero-section h1 {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.box-sizing {
+  box-sizing: border-box;
+}
+/* Universal box-sizing rule for consistency */
+html {
+  box-sizing: border-box;
+}
+.anima {
+  transition: transform 0.3s ease-in-out;
+}
 
-/* ------------------------------ */
-@media (max-width: 1024px) {
+.anima:hover {
+  transform: scale(1.01);
+}
+
+/* Video */
+
+/* Responsive Media */
+@media (max-width: 1200px) {
   .home-img-1 {
     height: 60vh !important;
     width: auto;
@@ -44,21 +45,19 @@ body {
     object-fit: cover !important;
   }
 }
-@media (max-width: 414px) {
-  .home-img-1 {
-    height: 60vh !important;
-    width: auto;
-    background-size: contain !important;
-    object-fit: cover !important;
-  }
+@media (max-width: 768px) {
   .home-img-2 {
     height: 60vh;
     width: auto !important;
     background-size: contain !important;
-    position: absolute !important;
-    display: flex !important;
-    object-fit: contain !important;
-    margin-left: -300px !important;
+    margin-left: -200px;
   }
 }
-
+@media (max-width: 400px) {
+  .home-img-3 {
+    height: 60vh;
+    width: auto !important;
+    background-size: contain !important;
+    margin-left: -290px;
+  }
+}
