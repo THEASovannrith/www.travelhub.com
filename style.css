@@ -36,73 +36,28 @@ body {
 }
 
 /* ------------------------------ */
-@media (max-width: 1200px) {
-  .travelhub {
-    width: 80px;
-  }
-  .home-media-1 {
-    object-fit: cover !important;
-    background-size: contain !important;
-    height: 50vh;
-    width: auto !important;
-    margin-left: -250px !important;
-  }
-  .home-media-2 {
-    object-fit: cover !important;
-    background-size: contain !important;
-    height: 50vh;
-    width: auto !important;
-  }
-}
 @media (max-width: 768px) {
-  .travelhub {
-    width: 80px;
-  }
-  .home-media-1 {
-    object-fit: cover !important;
+  .home-img-1 {
+    height: 60vh !important;
+    width: auto;
     background-size: contain !important;
-    height: 50vh;
-    width: auto !important;
-    margin-left: -450px !important;
-  }
-  .home-media-2 {
     object-fit: cover !important;
-    background-size: contain !important;
-    height: 50vh;
-    width: auto !important;
-    margin-left: -300px !important;
-  }
-  .home-media-3 {
-    object-fit: cover !important;
-    background-size: contain !important;
-    height: 50vh;
-    width: auto !important;
-    margin-left: -600px !important;
   }
 }
-@media (max-width: 480px) {
-  .travelhub {
-    width: 70px;
-  }
-  .home-media-1 {
-    object-fit: cover !important;
+@media (max-width: 414px) {
+  .home-img-1 {
+    height: 60vh !important;
+    width: auto;
     background-size: contain !important;
-    height: 50vh;
-    width: auto !important;
-    margin-left: -620px !important;
-  }
-  .home-media-2 {
     object-fit: cover !important;
-    background-size: contain !important;
-    height: 50vh;
-    width: auto !important;
-    margin-left: -470px !important;
   }
-  .home-media-3 {
-    object-fit: cover !important;
-    background-size: contain !important;
-    height: 50vh;
+  .home-img-2 {
+    height: 60vh;
     width: auto !important;
-    margin-left: -720px !important;
+    background-size: contain !important;
+    position: absolute !important;
+    display: flex !important;
+    object-fit: contain !important;
+    margin-left: -300px !important;
   }
 }
