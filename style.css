@@ -33,6 +33,13 @@ html {
 .anima:hover {
   transform: scale(1.01);
 }
+.zindex {
+  z-index: 220;
+}
+.container-fluid video {
+  width: 100%;
+  height: auto; /* Maintains the aspect ratio */
+}
 
 /* Video */
 
